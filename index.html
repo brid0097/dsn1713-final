@@ -16,12 +16,12 @@
 
       <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
         <div class="container-lg">
-          <a class="navbar-brand" href="#">
-            <img class="pe-2 d-inline-block align-text-top" src="images/toronto-cupcake-logo.jpg" alt="logo" width="auto" height="50">Daily Dish
+          <a class="navbar-brand overflow-y-visible" href="index.html">
+            <img class="rounded-circle" src="images/toronto-cupcake-logo.jpg" alt="logo" width="auto" height="70">
           </a>
 
-          <button><a href="#"><img src="images/search-icon.svg" alt=""></a></button>
-          <button><a href="#"><img src="images/shopping-cart-logo.svg" alt=""></a></button>
+          <button><a href="#"><img src="images/search-icon.svg" width="30" height="auto" alt=""></a></button>
+          <button><a href="#"><img src="images/shopping-cart-logo.svg" width="30" height="auto" alt=""></a></button>
           
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -43,19 +43,25 @@
           </div>
         </div>
       </nav>
-
     </header>
 
+
   <main>
-    <section>
-      <img src="images/toronto-cupcake-packaging.jpg" alt="">
-      <h1>Toronto Cupcake</h1>
-      <p>Welcome to Toronto Cupcake, your go-to destination for the most delicious and freshly baked cupcakes in Toronto and the Greater Toronto Area (GTA). Whether you're celebrating a birthday, hosting a corporate event, or just craving a sweet treat, we've got the perfect cupcakes for every occasion. Order online 24/7 and enjoy fast, reliable delivery across the GTA! Delicious cupcakes made fresh for every occasion. We cater to corporate events, birthdays, weddings, and more. Browse through our selection of custom cupcakes or create your own!</p>
-      <button><a href="cupcakes.html">Order Now</a></button>
+    <section class="bg-secondary bg-opacity-25">
+      <div class="conatianer-lg py-5 mx-4">
+        <div class="d-flex justify-content-center">
+          <img class="img-fluid pb-3" src="images/toronto-cupcake-packaging.jpg" alt="">
+        </div>
+        <div>
+          <h1>Toronto Cupcake</h1>
+          <p>Welcome to Toronto Cupcake, your go-to destination for the most delicious and freshly baked cupcakes in Toronto and the Greater Toronto Area (GTA). Whether you're celebrating a birthday, hosting a corporate event, or just craving a sweet treat, we've got the perfect cupcakes for every occasion. Order online 24/7 and enjoy fast, reliable delivery across the GTA! Delicious cupcakes made fresh for every occasion. We cater to corporate events, birthdays, weddings, and more. Browse through our selection of custom cupcakes or create your own!</p>
+          <button><a href="cupcakes.html">Order Now</a></button>
+        </div>
+      </div>
     </section>
 
     <section>
-      <div class="container-lg text-cneter">
+      <div class="container-lg text-center py-5">
         <h2 class="">Why does Toronto Cupcake have the best cupcakes in the GTA GTHA?</h2>
         <div class="row d-flex align-items-center justify-content-center g-5">
           <div class="col-sm-12 col-lg-3">
@@ -90,14 +96,42 @@
       </div>
     </section>
 
-    <section>
-
+    <section class="bg-secondary bg-opacity-25">
+      <div class="container-lg py-5">
+        <div>
+          <h3>Specialty Cupcakes for Every Season</h3>
+          <p>Our cupcake offerings change with the seasons, so there's always something new to try! Check out our Always Available Cupcakes for classic flavours, or explore our Holiday Cupcakes and Special Event Cupcakes for something truly unique.</p>
+        </div>
+        <div>
+          <h3>Celebrate with Toronto Cupcake</h3>
+          <p>Make your celebrations extra special with Toronto Cupcake. We offer a wide variety of cupcakes that are perfect for any event, from corporate meetings to weddings and birthdays. Our signature pink box delivery service is available across Toronto and the GTA, making it easy to enjoy our delic-ious cupcakes wherever you are..</p>
+        </div>
+        <div>
+          <h3>Order Cupcakes Online Today!</h3>
+          <p>Ready to indulge in Toronto's best cupcakes? Order online today and have fresh, delicious cupcakes delivered right to your door. Whether you need cupcakes for a party or just want to treat yourself, Toronto Cupcake has you covered!</p>
+        </div>
+      </div>
     </section>
 
-
   </main>
-  <footer>
 
+
+  <footer>
+    <div class="container-lg py-5">
+      <div class="container-lg d-flex justify-content-between align-items-center" data-bs-theme="dark">
+        <div>
+          <a href="/">
+            <img class="img-fluid col" src="images/daily-dish-logo.svg" alt="Logo" width="30" height="30">
+          </a>
+          <span class="col">&copy; 2024 Company, Inc</span>
+        </div>
+    
+        <ul class="list-unstyled row pt-2">
+          <li class="col"><a href="#"><img src="images/instagram-icon.svg" alt="Instagram logo" width="35" height="auto"></a></li>
+          <li class="col"><a href="#"><img src="images/facebook-icon.svg" alt="Facebook logo" width="35" height="auto"></a></li>
+        </ul>
+      </div>    
+    </div>
   </footer>
 
   <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
