@@ -4,6 +4,9 @@
 
 $primary: #FF5294;
 $secondary: rgba(67, 167, 157, 0.5);
+$success: #00A79D;
+$info: #AD2372;
+$light: #ffffff;
 
 $navbar-toggler-icon-color: rgb(67, 167, 157);
 
@@ -14,9 +17,33 @@ $navbar-toggler-icon-color: rgb(67, 167, 157);
 
 .navbar-toggler-icon {
     background-color: transparent;
-    background-image: url(images/navbar-toggle-icon.svg);
+    background-image: url("data:image/svg+xml,%3Csvg width='57' height='49' viewBox='0 0 57 49' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 4.08333C0 1.82474 1.81942 0 4.07143 0H52.9286C55.1806 0 57 1.82474 57 4.08333C57 6.34193 55.1806 8.16667 52.9286 8.16667H4.07143C1.81942 8.16667 0 6.34193 0 4.08333ZM0 24.5C0 22.2414 1.81942 20.4167 4.07143 20.4167H52.9286C55.1806 20.4167 57 22.2414 57 24.5C57 26.7586 55.1806 28.5833 52.9286 28.5833H4.07143C1.81942 28.5833 0 26.7586 0 24.5ZM57 44.9167C57 47.1753 55.1806 49 52.9286 49H4.07143C1.81942 49 0 47.1753 0 44.9167C0 42.6581 1.81942 40.8333 4.07143 40.8333H52.9286C55.1806 40.8333 57 42.6581 57 44.9167Z' fill='%2300A79D'/%3E%3C/svg%3E");
 }
 
 
 // sass --watch ./scss/custom.scss ./css/custom.css
 
+.packaging {
+    border-radius: 2.5em;
+}
+
+// .btn-primary {
+//     border-radius: 1.5em;
+// }
+
+.navbar {
+   min-height: 100px 
+}
+
+.logo {
+    border: solid 3px $primary;
+    height: auto;
+    position: absolute;
+    right: 50%;
+    transform: translateX(50%);
+    width: 130px;
+}
+
+.navbar-collapse {
+    background-color: $success;
+}
