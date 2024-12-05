@@ -7,15 +7,18 @@
     <link rel="stylesheet" href="css/custom.css">
     <link
     rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="icon" type="image/x-icon" href="images/favicon/favicon.ico">
+    <link rel="icon" type="image/png" href="images/favicon/apple-touch-icon.png" sizes="96x96">
 </head>
 <body>
 
   <header>
-    <header>
+    <header class="sticky-top bg-white">
 
       <nav class="navbar navbar-expand-lg" data-bs-theme="dark">
-        <div class="container">
-          <button class="btn btn-success d-flex rounded-5"><a class="text-light text-decoration-none" href="#socials">Follow Us</a></button>
+        <button class="btn btn-success d-flex rounded-5 follow--us-btn --laptop"><a class="text-light text-decoration-none" href="#socials">Follow Us</a></button>
+        <div class="container menu--container">
+          <button class="btn btn-success d-flex rounded-5 follow--us-btn --mobile"><a class="text-light text-decoration-none" href="#socials">Follow Us</a></button>
 
           <div class="modal" tabindex="-1">
             <div class="modal-dialog">
@@ -49,11 +52,11 @@
           </button>
 
           <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav ms-auto">
+              <ul class="navbar-nav ms-auto ps-2">
                 <li class="nav-item">
                   <a class="nav-link" href="#">Home</a></li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">About</a></li>
+                  <a class="nav-link" href="">About</a></li>
                 <li class="nav-item">
                   <a class="nav-link" href="#">Cupcakes</a></li>
                 <li class="nav-item">
@@ -66,13 +69,13 @@
 
 
   <main>
-    <section class="bg-secondary bg-opacity-25 p-5">
-      <div class="container-lg py-3">
+    <section class="bg-secondary bg-opacity-25 p-3">
+      <div class="container ">
         <div class="d-flex justify-content-center pb-2">
           <img class="img-fluid pb-3 packaging" src="images/toronto-cupcake-packaging.jpg" alt="">
         </div>
         <div>
-          <h1 class="pt-lg-3 pb-lg-1">Toronto Cupcake</h1>
+          <h1 class="pt-lg-3 pb-lg-1 text-info">Toronto Cupcake</h1>
           <p>Welcome to Toronto Cupcake, your go-to destination for the most delicious and freshly baked cupcakes in Toronto and the Greater Toronto Area (GTA). Whether you're celebrating a birthday, hosting a corporate event, or just craving a sweet treat, we've got the perfect cupcakes for every occasion. Order online 24/7 and enjoy fast, reliable delivery across the GTA! Delicious cupcakes made fresh for every occasion. We cater to corporate events, birthdays, weddings, and more. Browse through our selection of custom cupcakes or create your own!</p>
           <button class="btn btn-primary d-flex rounded-5"><a class="text-light text-decoration-none" href="cupcakes.html">Order Now</a></button>
         </div>
@@ -171,12 +174,12 @@
         <div>
           <img src="images/toronto-cupcake-logo.jpg" alt="Logo" width="50" height="auto">
         </div>
-        <span class="col"><small>&copy; 2024 Company, Inc</small></span>
+        <span class="col"><small>&copy; 2024 Toronto Cupcake, Inc</small></span>
     
-        <ul class="list-unstyled row pt-2">
-          <li class="col"><a href="#"><img src="images/facebook-icon.svg" alt="Facebook logo" width="30" height="auto"></a></li>
-          <li class="col"><a href="#"><img src="images/twitter-icon.svg" alt="Facebook logo" width="30" height="auto"></a></li>
-          <li class="col"><a href="#"><img src="images/instagram-icon.svg" alt="Instagram logo" width="30" height="auto"></a></li>
+        <ul class="list-unstyled row pt-3 justify-content-end gap-2">
+          <li class="col-2"><a href="#"><img src="images/facebook-icon.svg" alt="Facebook logo" width="30" height="auto"></a></li>
+          <li class="col-2"><a href="#"><img src="images/twitter-icon.svg" alt="Facebook logo" width="30" height="auto"></a></li>
+          <li class="col-2"><a href="#"><img src="images/instagram-icon.svg" alt="Instagram logo" width="30" height="auto"></a></li>
         </ul>
       </div>    
     </div>

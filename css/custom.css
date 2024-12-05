@@ -11870,4 +11870,43 @@ textarea.form-control-lg {
   background-color: #00A79D;
 }
 
+body {
+  overflow-x: hidden !important;
+}
+
+.follow--us-btn.--laptop {
+  display: none !important;
+}
+
+@media screen and (min-width: 992px) {
+  .collapse.navbar-collapse {
+    background-color: transparent;
+  }
+  .nav-item {
+    background-color: #FF5294;
+    margin: 0 10px;
+    border-radius: 10px;
+  }
+  .follow--us-btn.--laptop {
+    display: block !important;
+    margin-left: 50px;
+    width: 110px !important;
+  }
+  .follow--us-btn.--mobile {
+    display: none !important;
+  }
+  .menu--container {
+    flex-direction: row-reverse;
+  }
+  .menu--container .navbar-nav {
+    margin: 0 auto !important;
+  }
+  .nav-item:nth-child(2) {
+    margin-right: 100px;
+  }
+  .nav-item:nth-child(3) {
+    margin-left: 100px;
+  }
+}
+
 /*# sourceMappingURL=custom.css.map */
