@@ -7,8 +7,10 @@ $secondary: rgba(67, 167, 157, 0.5);
 $success: #00A79D;
 $info: #AD2372;
 $light: #ffffff;
+$dark: #000000;
 
 $navbar-toggler-icon-color: rgb(67, 167, 157);
+
 
 
 @import "../node_modules/bootstrap/scss/bootstrap";
@@ -28,7 +30,8 @@ $navbar-toggler-icon-color: rgb(67, 167, 157);
 }
 
 .navbar {
-   min-height: 100px 
+   min-height: 100px;
+   border-bottom: 3px solid $primary;
 }
 
 .logo {
@@ -41,7 +44,7 @@ $navbar-toggler-icon-color: rgb(67, 167, 157);
 }
 
 .navbar-collapse {
-    background-color: $success;
+    background-color: $primary;
 }
 
 body {
@@ -59,7 +62,8 @@ body {
     .nav-item {
         background-color: $primary;
         margin: 0 10px;
-        border-radius: 10px;
+        padding: 0 10px;
+        border-radius: 20px;
     }
     .follow--us-btn.--laptop {
         display: block !important;
