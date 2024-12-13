@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Righteous&display=swap");
 /*!
  * Bootstrap  v5.3.3 (https://getbootstrap.com/)
  * Copyright 2011-2024 The Bootstrap Authors
@@ -74,7 +75,7 @@
   --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
-  --bs-body-font-family: var(--bs-font-sans-serif);
+  --bs-body-font-family: "Montserrat", sans-serif;
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
@@ -5685,7 +5686,7 @@ textarea.form-control-lg {
   z-index: var(--bs-tooltip-zindex);
   display: block;
   margin: var(--bs-tooltip-margin);
-  font-family: var(--bs-font-sans-serif);
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -5795,7 +5796,7 @@ textarea.form-control-lg {
   z-index: var(--bs-popover-zindex);
   display: block;
   max-width: var(--bs-popover-max-width);
-  font-family: var(--bs-font-sans-serif);
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -11849,6 +11850,14 @@ textarea.form-control-lg {
   background-image: url("data:image/svg+xml,%3Csvg width='57' height='49' viewBox='0 0 57 49' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 4.08333C0 1.82474 1.81942 0 4.07143 0H52.9286C55.1806 0 57 1.82474 57 4.08333C57 6.34193 55.1806 8.16667 52.9286 8.16667H4.07143C1.81942 8.16667 0 6.34193 0 4.08333ZM0 24.5C0 22.2414 1.81942 20.4167 4.07143 20.4167H52.9286C55.1806 20.4167 57 22.2414 57 24.5C57 26.7586 55.1806 28.5833 52.9286 28.5833H4.07143C1.81942 28.5833 0 26.7586 0 24.5ZM57 44.9167C57 47.1753 55.1806 49 52.9286 49H4.07143C1.81942 49 0 47.1753 0 44.9167C0 42.6581 1.81942 40.8333 4.07143 40.8333H52.9286C55.1806 40.8333 57 42.6581 57 44.9167Z' fill='%2300A79D'/%3E%3C/svg%3E");
 }
 
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+  font-family: Righteous, sans-serif;
+}
+
+.btn {
+  font-weight: 600;
+}
+
 .packaging {
   border-radius: 15rem 0 0 0;
 }
@@ -11871,10 +11880,6 @@ textarea.form-control-lg {
   background-color: #FF5294;
 }
 
-body {
-  overflow-x: hidden !important;
-}
-
 .follow--us-btn.--laptop {
   display: none !important;
 }
@@ -11888,11 +11893,12 @@ body {
     margin: 0 10px;
     padding: 0 10px;
     border-radius: 20px;
+    font-weight: 600;
   }
   .follow--us-btn.--laptop {
     display: block !important;
     margin-left: 50px;
-    width: 110px !important;
+    width: 120px !important;
   }
   .follow--us-btn.--mobile {
     display: none !important;

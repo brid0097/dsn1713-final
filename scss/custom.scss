@@ -2,6 +2,8 @@
 // Option A: Include all of Bootstrap
 // Include any default variable overrides here (though functions won't be available)
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Righteous&display=swap');
+
 $primary: #FF5294;
 $secondary: rgba(67, 167, 157, 0.5);
 $success: #00A79D;
@@ -9,8 +11,9 @@ $info: #AD2372;
 $light: #ffffff;
 $dark: #000000;
 
-$navbar-toggler-icon-color: rgb(67, 167, 157);
+$font-family-base: "Montserrat", sans-serif;
 
+$navbar-toggler-icon-color: rgb(67, 167, 157);
 
 
 @import "../node_modules/bootstrap/scss/bootstrap";
@@ -24,6 +27,14 @@ $navbar-toggler-icon-color: rgb(67, 167, 157);
 
 
 // sass --watch ./scss/custom.scss ./css/custom.css
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Righteous, sans-serif;
+}
+
+.btn {
+    font-weight: 600;
+}
 
 .packaging {
     border-radius: 15rem 0 0 0;
@@ -47,9 +58,9 @@ $navbar-toggler-icon-color: rgb(67, 167, 157);
     background-color: $primary;
 }
 
-body {
-    overflow-x: hidden !important;
-}
+// body {
+//     overflow-x: hidden !important;
+// }
 
 .follow--us-btn.--laptop {
     display: none !important;
@@ -64,11 +75,12 @@ body {
         margin: 0 10px;
         padding: 0 10px;
         border-radius: 20px;
+        font-weight: 600;
     }
     .follow--us-btn.--laptop {
         display: block !important;
         margin-left: 50px;
-        width: 110px !important;
+        width: 120px !important;
     }
     .follow--us-btn.--mobile {
         display: none !important;
